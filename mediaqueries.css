@@ -303,6 +303,7 @@
         width: auto;
         height: 100%;
         padding: 112px 64px;
+        transition: 0.5s;
     }
     
     .connect {
@@ -384,7 +385,6 @@
         justify-content: center;
         align-items: center;
         gap: 50px;
-        transition: 0.5s;
     }
         
     .reverse {
@@ -395,13 +395,6 @@
     .features-section .right-column {
         max-width: 600px;
         width: auto;
-        transition: 0.5s;
-    }
-        
-    .contact-section {
-        width: auto;
-        height: 100%;
-        padding: 112px 64px;
         transition: 0.5s;
     }
     
@@ -430,13 +423,7 @@
         width: 100%;
         height: 600px;
     }
-    
-    .hero-img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-    
+        
     .hero-content {
         display: flex;
         flex-direction: column;
@@ -446,21 +433,6 @@
         align-items: center;
         gap: 10px;
         transition: 0.5s;
-    }
-       
-    .features-section {
-        display: flex;
-        flex-direction: column;
-        padding: 112px 64px;
-        justify-content: center;
-        align-items: center;
-        gap: 50px;
-        transition: 0.5s;
-    }
-        
-    .reverse {
-        display: flex;
-        flex-direction: column-reverse;
     }
 }
 
@@ -478,13 +450,7 @@
         width: 100%;
         height: 400px;
     }
-    
-    .hero-img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-    
+        
     .hero-content {
         display: flex;
         flex-direction: column;
@@ -493,20 +459,6 @@
         justify-content: space-between;
         align-items: center;
         gap: 10px;
-    }
-        
-    .features-section {
-        display: flex;
-        flex-direction: column;
-        padding: 112px 64px;
-        justify-content: center;
-        align-items: center;
-        gap: 50px;
-    }
-        
-    .reverse {
-        display: flex;
-        flex-direction: column-reverse;
     }
 
     .features-section .right-column {
