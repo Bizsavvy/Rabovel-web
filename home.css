@@ -271,6 +271,9 @@
         font-weight: 600;
         text-align: left;
         transition: 0.5s;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
     
     .active, .accordion:hover {
