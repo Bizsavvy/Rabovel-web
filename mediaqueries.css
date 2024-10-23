@@ -84,7 +84,7 @@
     
     .hero-section {
         width: 100%;
-        height: 1024px;
+        transition: 0.5s;
     }
     
     .hero-banner {
@@ -100,8 +100,7 @@
     
     .hero-content {
         display: flex;
-        padding: 80px 64px;
-        height: 321px;
+        margin: 80px 64px;
         justify-content: space-between;
         align-items: center;
         gap: 48px;
@@ -119,7 +118,7 @@
     
     .features-section {
         display: flex;
-        padding: 112px 64px;
+        margin: 112px 64px;
         justify-content: space-between;
         align-items: center;
         gap: 48px;
@@ -241,7 +240,7 @@
     .FAQ-section {
         width: auto;
         height: 100%;
-        padding: 112px 64px;
+        margin: 112px 64px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -355,7 +354,7 @@
     .footer-section {
         width: auto;
         height: 100%;
-        padding: 80px 64px;
+        margin: 80px 64px;
     }
     
     .upper-links {
@@ -381,7 +380,7 @@
     .features-section {
         display: flex;
         flex-direction: column;
-        padding: 112px 64px;
+        margin: 112px 64px;
         justify-content: center;
         align-items: center;
         gap: 50px;
@@ -416,7 +415,6 @@
 @media (max-width:951px) {
     .hero-section {
         width: 100%;
-        height: 900px;
     }
     
     .hero-banner {
@@ -427,7 +425,7 @@
     .hero-content {
         display: flex;
         flex-direction: column;
-        padding: 80px 64px;
+        margin: 80px 64px;
         height: 321px;
         justify-content: space-between;
         align-items: center;
@@ -443,7 +441,7 @@
 
     .hero-section {
         width: 100%;
-        height: 700px;
+        border-bottom: 1px solid #3D3A3A;
     }
     
     .hero-banner {
@@ -454,11 +452,12 @@
     .hero-content {
         display: flex;
         flex-direction: column;
-        padding: 80px 64px;
+        margin: 80px 64px;
         height: 321px;
         justify-content: space-between;
         align-items: center;
         gap: 10px;
+        text-align: center;
     }
 
     .features-section .right-column {
@@ -497,7 +496,7 @@
     .footer-section {
         width: auto;
         height: 100%;
-        padding: 60px 64px;
+        margin: 60px 64px;
     }
     
     .upper-links {
@@ -523,7 +522,15 @@
         border-top: 1px solid #3D3A3A;
         padding-top: 26px;
         display: flex;
-        gap: 24px;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:613px) {
+    .hero-banner {
+        width: 100%;
+        height: 300px;
     }
 }
 
