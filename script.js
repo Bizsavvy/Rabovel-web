@@ -14,11 +14,19 @@ for (i = 0; i < acc.length; i++) {
 }
 
 function showSidebar() {
-  const sidebar = document.querySelector('.sidebar')
-  sidebar.style.display = 'flex'
+  const sidebar = document.querySelector('.sidebar');
+  const overlay = document.querySelector('.overlay');
+  sidebar.style.display = 'flex';
+  overlay.style.display = 'block';
+  document.body.classList.add('no-scroll');
 }
 
 function hideSidebar() {
-    const sidebar = document.querySelector('.sidebar')
-    sidebar.style.display = 'none'
+    const sidebar = document.querySelector('.sidebar');
+    const overlay = document.querySelector('.overlay');
+    sidebar.style.display = 'none';
+    overlay.style.display = 'none';
+    document.body.classList.remove('no-scroll');
 }
+
+document.querySelector('.overlay').addEventListener('click', hideSidebar);

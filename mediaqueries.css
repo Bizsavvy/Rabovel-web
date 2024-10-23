@@ -51,6 +51,22 @@
         width: 100%;
         cursor: pointer;
     }
+
+    body.no-scroll {
+        overflow: hidden;
+    }
+
+    .overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0);
+        z-index: 10;
+    }
+
     .sidebar {
         position: fixed;
         top: 0;
