@@ -69,6 +69,7 @@
         padding: 80px 64px;
         height: 321px;
         justify-content: space-between;
+        gap: 48px;
         transition: 0.5s;
     }
     

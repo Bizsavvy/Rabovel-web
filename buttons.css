@@ -1,77 +1,155 @@
-.btns {
-    display: flex;
-    gap: 15px;
+@media (min-width:951px) {
+    .btns {
+        display: flex;
+        gap: 15px;
+    }
+    
+    .btn-fill {
+        padding: 12px 24px;
+        border: 1px solid #3463F2;
+        background-color: #3463F2;
+        color: white;
+        border-radius: 32px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    
+    .elongated {
+        width: 119px;
+        height: 48px;
+    }
+    
+    .btn-fill:hover {
+        border: 1px solid #3463F2;
+        background-color: transparent;
+        color: inherit;
+    }
+    
+    .btn-outline {
+        padding: 12px 24px;
+        border: 1px solid #3463F2;
+        background-color: transparent;
+        color: inherit;
+        border-radius: 32px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    .btn-outline:hover {
+        border: 1px solid #3463F2;
+        background-color: #3463F2;
+        color: white;
+    }
+    
+    .btn-link {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border: 1px solid transparent;
+        background-color: transparent;
+        color: inherit;
+        border-radius: 32px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    
+    .btn-link:hover {
+        letter-spacing: 1px;
+        color: #3463F2;
+    }
+    
+    .input {
+        padding: 12px 12px;
+        max-width: 365px;
+        width: auto;
+        height: 48px;
+        border: 1px solid #3D3A3A;
+        background-color: transparent;
+        color: inherit;
+        border-radius: 32px;
+        font-size: 16px;
+        cursor: pointer;
+        outline: none;
+        margin-right: 10px;
+    }
 }
 
-.btn-fill {
-    padding: 12px 24px;
-    border: 1px solid #3463F2;
-    background-color: #3463F2;
-    color: white;
-    border-radius: 32px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.5s;
-}
-
-.elongated {
-    width: 119px;
-    height: 48px;
-}
-
-.btn-fill:hover {
-    border: 1px solid #3463F2;
-    background-color: transparent;
-    color: inherit;
-}
-
-.btn-outline {
-    padding: 12px 24px;
-    border: 1px solid #3463F2;
-    background-color: transparent;
-    color: inherit;
-    border-radius: 32px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.btn-outline:hover {
-    border: 1px solid #3463F2;
-    background-color: #3463F2;
-    color: white;
-}
-
-.btn-link {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    /* padding: 12px 24px; */
-    border: 1px solid transparent;
-    background-color: transparent;
-    color: inherit;
-    border-radius: 32px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.5s;
-}
-
-.btn-link:hover {
-    letter-spacing: 1px;
-    color: #3463F2;
-}
-
-.input {
-    padding: 12px 12px;
-    max-width: 365px;
-    width: auto;
-    /* width: 365px; */
-    height: 48px;
-    border: 1px solid #3D3A3A;
-    background-color: transparent;
-    color: inherit;
-    border-radius: 32px;
-    font-size: 16px;
-    cursor: pointer;
-    outline: none;
-    margin-right: 10px;
+@media (max-width:951px) {
+    .btns {
+        display: flex;
+        gap: 15px;
+    }
+    
+    .btn-fill {
+        padding: 12px 24px;
+        border: 1px solid #3463F2;
+        background-color: #3463F2;
+        color: white;
+        border-radius: 32px;
+        font-size: 14px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    
+    .elongated {
+        width: 100px;
+        height: 48px;
+    }
+    
+    .btn-fill:hover {
+        border: 1px solid #3463F2;
+        background-color: transparent;
+        color: inherit;
+    }
+    
+    .btn-outline {
+        padding: 12px 24px;
+        border: 1px solid #3463F2;
+        background-color: transparent;
+        color: inherit;
+        border-radius: 32px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    
+    .btn-outline:hover {
+        border: 1px solid #3463F2;
+        background-color: #3463F2;
+        color: white;
+    }
+    
+    .btn-link {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border: 1px solid transparent;
+        background-color: transparent;
+        color: inherit;
+        border-radius: 32px;
+        font-size: 14px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    
+    .btn-link:hover {
+        letter-spacing: 1px;
+        color: #3463F2;
+    }
+    
+    .input {
+        padding: 12px 12px;
+        max-width: 365px;
+        width: auto;
+        height: 48px;
+        border: 1px solid #3D3A3A;
+        background-color: transparent;
+        color: inherit;
+        border-radius: 32px;
+        font-size: 14px;
+        cursor: pointer;
+        outline: none;
+        margin-right: 10px;
+    }
 }
