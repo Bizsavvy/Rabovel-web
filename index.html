@@ -17,25 +17,52 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="nav-bar">
-        <div class="logo">
-            <a href="index.html">
-                <img class="logo-img" src="logo/Rabovel Logo.png" alt="Logo">
-            </a>
-        </div>
+    <nav class="nav-bar" id="myNavbar">
+        <ul class="sidebar bs">
+            <li onclick=hideSidebar()>
+                <a href="#" class="icon">
+                    <i class="bi bi-x-lg"></i>
+                </a>    
+            </li>
+            <li>
+                <a href="#" class="regular">About US</a>
+            </li>
+            <li>
+                <a href="#" class="regular">Services</a>
+            </li>
+            <li>
+                <a href="#" class="regular">Products</a>
+            </li>
+            <li>
+                <a href="#" class="regular">Sign Up</a>
+            </li>
+        </ul>
+
         <ul class="nav-links">
-            <a href="#">
-                <li class="regular">About Us</li>
-            </a>
-            <a href="#">
-                <li class="regular">Services</li>
-            </a>
-            <a href="#">
-                <li class="regular">Products</li>
-            </a>
-            <a href="#">
-                <li class="regular">Sign Up</li>
-            </a>
+            <li>
+                <div class="logo">
+                    <a href="index.html">
+                        <img class="logo-img" src="logo/Rabovel Logo.png" alt="Logo">
+                    </a>
+                </div>        
+            </li>
+            <li>
+                <a href="#" class="regular">About US</a>
+            </li>
+            <li>
+                <a href="#" class="regular">Services</a>
+            </li>
+            <li>
+                <a href="#" class="regular">Products</a>
+            </li>
+            <li>
+                <a href="#" class="regular">Sign Up</a>
+            </li>
+            <li onclick=showSidebar()>
+                <a href="#" class="icon">
+                    <i class="bi bi-list"></i>
+                </a>    
+            </li>
         </ul>
     </nav>
 

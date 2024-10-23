@@ -1,15 +1,46 @@
 @media (max-width:1200px) {
     .nav-bar {
-        display: flex;
-        justify-content: space-between;
-        padding: 30px 64px;
-        height: 72px;
         border-bottom: 1px solid rgb(159, 159, 159);
         background-color: white;
-        align-items: center;
         position: sticky;
         top: 0;
         left: 0;
+    }
+
+    .nav-links {
+        width: 100%;
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 8px 50px;
+    }
+
+    .nav-links li {
+        font-size: 18px;
+        line-height: 150%;
+        font-weight: normal;
+        cursor: pointer;
+        font-family: "Inter", sans-serif;
+        transition: 0.5ms;
+        height: 70px;
+    }
+
+    .nav-links a:hover {
+        color: #3463F2;
+    }
+
+    .nav-links a {
+        height: 100%;
+        padding: 0px 14px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        color: #3D3A3A;
+    }
+
+    .nav-links li:first-child {
+        margin-right: auto;
     }
     
     .logo {
@@ -19,32 +50,6 @@
     .logo-img {
         width: 100%;
         cursor: pointer;
-    }
-    
-    .nav-links {
-        display: flex;
-        gap: 15px;
-        margin: 0;
-        padding: 0;
-    }
-    
-    .nav-links ul {
-        margin: 0;
-        padding: 0;
-    }
-    
-    .nav-links li {
-        list-style: none;
-        font-size: 18px;
-        line-height: 150%;
-        font-weight: normal;
-        cursor: pointer;
-        font-family: "Inter", sans-serif;
-        transition: 0.5ms;
-    }
-    
-    .nav-links li:hover {
-        color: #3463F2;
     }
     
     .hero-section {
@@ -342,16 +347,47 @@
 
 @media (max-width:1090px) {
     .nav-bar {
-        display: flex;
-        justify-content: space-between;
-        padding: 30px 64px;
-        height: 72px;
         border-bottom: 1px solid rgb(159, 159, 159);
         background-color: white;
-        align-items: center;
         position: sticky;
         top: 0;
         left: 0;
+    }
+
+    .nav-links {
+        width: 100%;
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 8px 50px;
+    }
+
+    .nav-links li {
+        font-size: 18px;
+        line-height: 150%;
+        font-weight: normal;
+        cursor: pointer;
+        font-family: "Inter", sans-serif;
+        transition: 0.5ms;
+        height: 70px;
+    }
+
+    .nav-links a:hover {
+        color: #3463F2;
+    }
+
+    .nav-links a {
+        height: 100%;
+        padding: 0px 14px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        color: #3D3A3A;
+    }
+
+    .nav-links li:first-child {
+        margin-right: auto;
     }
     
     .logo {
@@ -361,32 +397,6 @@
     .logo-img {
         width: 100%;
         cursor: pointer;
-    }
-    
-    .nav-links {
-        display: flex;
-        gap: 15px;
-        margin: 0;
-        padding: 0;
-    }
-    
-    .nav-links ul {
-        margin: 0;
-        padding: 0;
-    }
-    
-    .nav-links li {
-        list-style: none;
-        font-size: 18px;
-        line-height: 150%;
-        font-weight: normal;
-        cursor: pointer;
-        font-family: "Inter", sans-serif;
-        transition: 0.5ms;
-    }
-    
-    .nav-links li:hover {
-        color: #3463F2;
     }
     
     .hero-section {
@@ -693,16 +703,47 @@
 
 @media (max-width:951px) {
     .nav-bar {
-        display: flex;
-        justify-content: space-between;
-        padding: 30px 64px;
-        height: 72px;
         border-bottom: 1px solid rgb(159, 159, 159);
         background-color: white;
-        align-items: center;
         position: sticky;
         top: 0;
         left: 0;
+    }
+
+    .nav-links {
+        width: 100%;
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 8px 50px;
+    }
+
+    .nav-links li {
+        font-size: 18px;
+        line-height: 150%;
+        font-weight: normal;
+        cursor: pointer;
+        font-family: "Inter", sans-serif;
+        transition: 0.5ms;
+        height: 70px;
+    }
+
+    .nav-links a:hover {
+        color: #3463F2;
+    }
+
+    .nav-links a {
+        height: 100%;
+        padding: 0px 14px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        color: #3D3A3A;
+    }
+
+    .nav-links li:first-child {
+        margin-right: auto;
     }
     
     .logo {
@@ -712,32 +753,6 @@
     .logo-img {
         width: 100%;
         cursor: pointer;
-    }
-    
-    .nav-links {
-        display: flex;
-        gap: 15px;
-        margin: 0;
-        padding: 0;
-    }
-    
-    .nav-links ul {
-        margin: 0;
-        padding: 0;
-    }
-    
-    .nav-links li {
-        list-style: none;
-        font-size: 18px;
-        line-height: 150%;
-        font-weight: normal;
-        cursor: pointer;
-        font-family: "Inter", sans-serif;
-        transition: 0.5ms;
-    }
-    
-    .nav-links li:hover {
-        color: #3463F2;
     }
     
     .hero-section {
@@ -1042,51 +1057,56 @@
 
 @media (max-width:769px) {
     .nav-bar {
-        display: flex;
-        justify-content: space-between;
-        padding: 30px 64px;
-        height: 72px;
         border-bottom: 1px solid rgb(159, 159, 159);
         background-color: white;
-        align-items: center;
         position: sticky;
         top: 0;
         left: 0;
     }
-    
-    .logo {
-        width: 110px;
-    }
-    
-    .logo-img {
-        width: 100%;
-        cursor: pointer;
-    }
-    
+
     .nav-links {
-        display: flex;
-        gap: 15px;
-        margin: 0;
-        padding: 0;
-    }
-    
-    .nav-links ul {
-        margin: 0;
-        padding: 0;
-    }
-    
-    .nav-links li {
+        width: 100%;
         list-style: none;
-        font-size: 14px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 8px 50px;
+    }
+
+    .nav-links li {
+        font-size: 18px;
         line-height: 150%;
         font-weight: normal;
         cursor: pointer;
         font-family: "Inter", sans-serif;
         transition: 0.5ms;
+        height: 70px;
+    }
+
+    .nav-links a:hover {
+        color: #3463F2;
+    }
+
+    .nav-links a {
+        height: 100%;
+        padding: 0px 14px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        color: #3D3A3A;
+    }
+
+    .nav-links li:first-child {
+        margin-right: auto;
     }
     
-    .nav-links li:hover {
-        color: #3463F2;
+    .logo {
+        width: 100px;
+    }
+    
+    .logo-img {
+        width: 100%;
+        cursor: pointer;
     }
     
     .hero-section {
